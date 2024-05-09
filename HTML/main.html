@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/CSS/reset.css">
+    <link rel="stylesheet" href="../assets/CSS/main.css">
+    <title>Cinema</title>
+</head>
+<body>
+    <header>
+        <section class="header" >
+            <div class="container-head ">
+                <div class="blur-layer"></div>
+                <nav class="nav">
+                    <div class="box-menu">
+                        <div class="box-hidden translate-menu">
+                            <div class="menu">
+                            <a href="">
+                                <svg class="user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/>
+                                </svg>                        </a>
+                            <a href="" class="home">Trang Chủ </a>
+                            <a href="" class="profile">Trang Cá Nhân</a>
+                            <a href="" class="setting">Cài Đặt</a>
+                            <a href="../index.html" class="log-out">Đăng Xuất</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                   <img src="../assets/icon/watching-a-movie.png" alt="" class="logo-img">
+                        <a href="#" class="logo-text">Watch Film</a>
+                    </div>
+                    <ul class="link">
+                       <li>
+                        <a href="./home.html">Trang chủ</a>
+                       </li>
+                       <li>
+                        <a href="">Khám Phá </a>
+                       </li>
+                       <li>
+                        <a href="" class="active">Phim Phát Sóng</a>
+                       </li>
+                       <li>
+                        <a   href="">Diễn Đàn </a>
+                       </li>
+                       <li>
+                        <a href="">Thông Tin</a>
+                       </li>
+                    </ul>
+                    <div class="icon">
+                        <img class="search" src="../assets/icon/search.svg">
+                        <img class="bell" src="../assets/icon/bell.svg" alt="">
+                        <img class="avt" src="../assets/icon/Image.svg">
+                        <div class="click-menu">
+                            <svg  class="arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M3.72471 6.64137C3.9466 6.41948 4.29382 6.39931 4.5385 6.58086L4.6086 6.64137L9.99999 12.0325L15.3914 6.64137C15.6133 6.41948 15.9605 6.39931 16.2052 6.58086L16.2753 6.64137C16.4972 6.86326 16.5173 7.21048 16.3358 7.45516L16.2753 7.52525L10.4419 13.3586C10.22 13.5805 9.87282 13.6006 9.62815 13.4191L9.55805 13.3586L3.72471 7.52525C3.48064 7.28118 3.48064 6.88545 3.72471 6.64137Z" fill="#F9F9F9"/>
+                                </svg>
+                        </div>
+                    </div>
+                </nav>
+            
+            <section class="film">
+                <div class="content-left">
+                    <p class="series">Phim Bộ</p>
+                    <h1 class="name">The Last Of Us Season 1</h1>
+                    <p class="about">9 Tập • 2022 • Kinh Điển • Hành Động</p>
+                    <div class="button">
+                        <div class="watching">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20.6 12C20.6 16.7497 16.7497 20.6 12 20.6C7.25038 20.6 3.40002 16.7497 3.40002 12C3.40002 7.25038 7.25038 3.40002 12 3.40002C16.7497 3.40002 20.6 7.25038 20.6 12ZM12.0204 7.76952C11.3453 7.31946 10.4773 7.2775 9.76194 7.66034C9.04659 8.04318 8.60002 8.78868 8.60002 9.60003V14.4C8.60002 15.2114 9.04659 15.9569 9.76194 16.3397C10.4773 16.7226 11.3453 16.6806 12.0204 16.2305L15.6204 13.8305C16.2324 13.4225 16.6 12.7356 16.6 12C16.6 11.2644 16.2324 10.5775 15.6204 10.1695L12.0204 7.76952Z" fill="white" stroke="white" stroke-width="2"/>
+                                </svg>
+                             <p class="text">Tiếp Tục Xem</p>
+                        </div>
+                        <div class="watch-list">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21L12 17.5L5 21V5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                             <p class="text">Thêm Vào </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <a class="down item" href="">
+                        <img src="../assets/icon/download.svg" alt="" class="logo">
+                        <p class="text">Tải Phim</p>
+                    </a> 
+                     <a class="share item" href=""> 
+                     <img src="../assets/icon/share.svg" alt="" class="logo">
+                     <p class="text">Chia Sẻ</p>
+                    </a>
+                 
+                  <a class="like item" href="">
+                  <img src="../assets/icon/thumb-up.svg" alt="" class="logo">
+                  <p class="text">Yêu Thích</p>
+                     </a>
+                </div>
+            </section>
+        </div>
+        </section>
+    </header>
+    
+    <main>
+       <section class="movie-info">
+    <div class="container">
+        <section class="film-info">
+        <div class="story-line">
+            <h1 class="heading">Nội Dung Phim</h1>
+            <p class="story-info">The Last of Us is an American post-apocalyptic drama television series created by Craig Mazin and Neil Druckmann for HBO. Based on the 2013 video game developed by Naughty Dog, the series is set in 2023, twenty years into a pandemic caused by a mass fungal infection, which causes its hosts to transform into zombie-like creatures and collapses society. The series follows Joel (Pedro Pascal), a smuggler tasked with escorting the immune teenager Ellie (Bella Ramsey) across a post-apocalyptic United States.... More</p> 
+        </div>
+        <div class="cast">
+            <h1 class="heading">Diễn Viên</h1>
+             <div class="cast-list">    
+               <div class="click-back">
+                 <div class="arrow-back">
+                 </div> 
+               </div>
+                <div class="five-cast">
+                    <div class="cast-item">
+                        <img src="../assets/icon/Bg.svg" alt="" class="avt">
+                       <div class="name">
+                         <p class="real-name">Pedro Pascal</p>
+                         <p class="char-name">Joel Miller</p>
+                       </div>
+                    </div>
+                    <div class="cast-item">
+                        <img src="../assets/icon/Bg (1).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Bella Ramsey</p>
+                            <p class="char-name">Ellie</p>
+                        </div>
+                    </div>
+                    <div class="cast-item">
+                        <img src="../assets/icon/Bg (2).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Anna Torv</p>
+                            <p class="char-name">Tessa</p>
+                        </div>
+                    </div>
+                    <div class="cast-item">
+                        <img src="../assets/icon/Bg (3).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Ashley Johnson</p>
+                            <p class="char-name">Ellie Mother</p>
+                        </div>
+                    </div>
+                    <div class="cast-item">
+                        <img src="../assets/icon/Bg (4).svg" alt="" class="avt">
+                        <div class="name">
+                            <p class="real-name">Nick Offerman</p>
+                            <p class="char-name">Bill</p>
+                        </div >
+                    </div>
+                    </div>
+                             <!-- 5 cast -->
+            <div class="five-cast">
+                <div class="cast-item">
+                    <img src="../assets/icon/Bg (5).svg" alt="" class="avt">
+                   <div class="name">
+                     <p class="real-name">Nico Parker</p>
+                     <p class="char-name">Sarah Miller</p>
+                   </div>
+                </div>
+                <div class="cast-item">
+                    <img src="../assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+                <div class="cast-item">
+                    <img src="../assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+                <div class="cast-item">
+                    <img src="../assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+                <div class="cast-item">
+                    <img src="../assets/icon/Bg (6).svg" alt="" class="avt">
+                    <div class="name">
+                        <p class="real-name">Murray Bartlett</p>
+                        <p class="char-name">Frank</p>
+                    </div>
+                </div>
+            </div>
+            <div class="click-ahead">
+                 <svg class="arrow ahead" xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16" fill="currentColor">
+                    <path d="M1.42501 15.225C1.26668 15.225 1.10834 15.1667 0.983343 15.0417C0.741677 14.8 0.741677 14.4 0.983343 14.1583L6.41668 8.72502C6.81668 8.32502 6.81668 7.67502 6.41668 7.27502L0.983343 1.84168C0.741677 1.60002 0.741677 1.20002 0.983343 0.95835C1.22501 0.716683 1.62501 0.716683 1.86668 0.95835L7.30001 6.39168C7.72501 6.81668 7.96668 7.39168 7.96668 8.00002C7.96668 8.60835 7.73334 9.18335 7.30001 9.60835L1.86668 15.0417C1.74168 15.1583 1.58334 15.225 1.42501 15.225Z" fill="#F9F9F9"/>
+                    </svg>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="options">
+        <div class="container">
+          <div class="episode-info">
+            <div class="choice-list">
+                <a href="" class="choice">Tập</a>
+                <a href="" class="choice">Liên Quan</a>
+                <a href="" class="choice">Thống tin</a>
+                <a href="" class="choice">Đánh Giá</a>
+            </div>
+            <h1 class="heading">1-9 Tập
+                <div class="click-back">
+                    <div class="arrow-back">
+                    </div> 
+                </div>
+                    <div class="click-ahead">
+                        <div class="arrow-ahead">
+                        </div> 
+                        </div>
+            </h1>
+            <div class="episode-list">
+                 <div class="for-episode">
+                    <a href="" class="episode">
+                        <img src="../assets/icon/Image.png" alt="">
+                          <div class="espisode-desc">
+                            <div class="title">Chương 1</div>
+                            <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, accusantium!</div>
+                          </div>
+
+                       </a>
+                    <a href="" class="episode"><img src="../assets/icon/Image (1).png" alt="">
+                        <div class="espisode-desc">
+                            <div class="title">Chương 2</div>
+                            <div class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, fuga.</div>
+                          </div>
+                        </a>
+                    <a href="" class="episode"><img src="../assets/icon/Image (2).png" alt="">
+                        <div class="espisode-desc">
+                            <div class="title">Chương 3</div>
+                            <div class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, assumenda.</div>
+                          </div></a>
+                    <a href="" class="episode"><img src="../assets/icon/Image (3).png" alt="">
+                        <div class="espisode-desc">
+                            <div class="title">Chương 4</div>
+                            <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, odit.</div>
+                          </div>
+                        </a>
+                 </div>
+                 <div class="for-episode">
+                    <a href="" class="episode">
+                        <img src="../assets/icon/Image.png" alt="">
+                          <div class="espisode-desc">
+                            <div class="title">Chương 5</div>
+                            <div class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, corporis.</div>
+                          </div>
+
+                       </a>
+                    <a href="" class="episode"><img src="../assets/icon/Image (1).png" alt="">
+                        <div class="espisode-desc">
+                            <div class="title">Chương 6</div>
+                            <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, dolorum.</div>
+                          </div></a>
+                    <a href="" class="episode"><img src="../assets/icon/Image (2).png" alt="">
+                        <div class="espisode-desc">
+                            <div class="title">Chương 7</div>
+                            <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ab.</div>
+                          </div></a>
+                    <a href="" class="episode"><img src="../assets/icon/Image (3).png" alt="">
+                        <div class="espisode-desc">
+                            <div class="title">chương 8</div>
+                            <div class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, voluptates.</div>
+                          </div></a>
+                 </div>
+                 </div>
+                </div>
+            </div>
+        
+    </section>
+    <section class="similar">
+        <div class="container">
+            <div class="list-similar">
+                <h1 class="main-heading">Phim Khác Dành Cho Bạn </h1>
+                <div class="list-similarMovie">
+                    <div class="click-back">
+                        <div class="arrow-back">
+                        </div> 
+                    </div>
+                        <div class="click-ahead">
+                            <div class="arrow-ahead">
+                            </div> 
+                            </div>
+                            <div class="for-similar">
+                    <a href="" class="similar">
+                        <img class="thumb" src="../assets/icon/topmaver.png" alt="" >
+                        <div class="smilarMovieInfo">
+                            <h1 class="heading">TOP GUN:Maverick</h1>
+                            <div class="review">
+                                <div class="rate">
+                                    <img src="../assets/icon/star.svg" alt="" class="star">
+                                    <div class="point"> 4.6</div>
+                                    <div class="category">| Hành Động • Phim</div>
+
+                            
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="similar">
+                        <img class="thumb" src="../assets/icon/spiderman.png" alt="" >
+                        <div class="smilarMovieInfo">
+                            <h1 class="heading">Spiderman; into the spider verse</h1>
+                            <div class="review">
+                                <div class="rate">
+                                    <img src="../assets/icon/star.svg" alt="" class="star">
+                                    <div class="point">4.6</div>
+                                    <div class="category">| Hành Động • Phim</div>
+
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="similar">
+                        <img class="thumb" src="../assets/icon/blackpanther.png" alt="" >
+                        <div class="smilarMovieInfo">
+                            <h1 class="heading">Black Panther; Wakanda Forever</h1>
+                            <div class="review">
+                                <div class="rate">
+                                    <img src="../assets/icon/star.svg" alt="" class="star">
+                                    <div class="point">4.6</div>
+                                    <div class="category">| Hành Động • Phim</div>
+
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="similar">
+                        <img class="thumb" src="../assets/icon/batman.png" alt="" >
+                        <div class="smilarMovieInfo">
+                            <h1 class="heading">Batman V Superman</h1>
+                            <div class="review">
+                                <div class="rate">
+                                    <img src="../assets/icon/star.svg" alt="" class="star">
+                                    <div class="point">4.6</div>
+                                    <div class="category">| Hành Động • Phim</div>
+
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="for-similar">
+                    <a href="" class="similar">
+                        <img class="thumb" src="../assets/icon/rednotice.png" alt="" >
+                        <div class="smilarMovieInfo">
+                            <h1 class="heading">Red Notice</h1>
+                            <div class="review">
+                                <div class="rate">
+                                    <img src="../assets/icon/star.svg" alt="" class="star">
+                                    <div class="point">4.6
+                                    </div>
+                                    <div class="category">| Hành Động • Phim</div>
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <div class="footer-top">
+                    <div class="content-left">
+                        <h1 class="heading">Một Dự Án Cuối Kì: Website Xem Phim   </h1>
+                    </div>
+                    <div class="content-right">
+                      <div class="link">
+                          <a href="./home.html">Trang Chủ</a>
+                          <a href="">Khám Phá</a>
+                          <a href="">Liên Quan</a>
+                          <a href="">Phát Hành</a>
+                      </div>
+                      <div class="social">
+                       <a target="_blank" href="https://www.facebook.com/profile.php?id=100022400192250"> <img src="../assets/icon/Facebook.svg" alt="" class="icon"></a>
+                       <a target="_blank" href="https://www.instagram.com/hthawngs_isme/"> <img src="../assets/icon/Instagram.svg" alt="" class="icon"></a>
+                       <a href=""> <img src="../assets/icon/Twitter.svg" alt="" class="icon"></a>
+                       <a href=""> <img src="../assets/icon/Google.svg" alt="" class="icon"></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="content-left">
+                        <p>Chính sách bảo mật</p>
+                        <p>Dịch vụ</p>
+                        <p>Ngôn Ngữ </p>
+                    </div>
+                    <div class="content-right">Thiết kế: Lê Viết Hoàng Thắng </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../JS/main.js"></script>
+</body>
+</html>
