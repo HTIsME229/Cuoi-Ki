@@ -1,0 +1,39 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#F5F5F5"/>
+<g id="Contact us">
+<rect width="1440" height="1488" transform="translate(-172 -602)" fill="#FBFBFB"/>
+<g id="Group 1000001766">
+<g id="Group 1000001746">
+<g id="Rectangle 3840" filter="url(#filter0_d_1_680)">
+<rect x="-50" y="-310" width="1196" height="667" rx="10" fill="white"/>
+</g>
+<g id="Frame 1" clip-path="url(#clip0_1_680)">
+<path id="Rectangle 3841" d="M-40 -290C-40 -295.523 -35.5228 -300 -30 -300H441C446.523 -300 451 -295.523 451 -290V337C451 342.523 446.523 347 441 347H-30C-35.5228 347 -40 342.523 -40 337V-290Z" fill="#011C2B"/>
+<g id="Group 1000001752">
+<g id="Group 1000001748">
+<g id="ic:sharp-email">
+<path id="Vector" d="M22 4H2V20H22V4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_680" x="-140" y="-400" width="1376" height="847" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="30" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_1_680"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="30"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.03 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_680"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_680" result="shape"/>
+</filter>
+<clipPath id="clip0_1_680">
+<rect width="491" height="647" fill="white" transform="translate(-40 -300)"/>
+</clipPath>
+</defs>
+</svg>

@@ -703,7 +703,90 @@ transform: translateX(-100%);
         .slide .film:nth-child(5){
             transform: translateX(300%);
             }
-    
+    /* code contact us */
+ .contact-us .heading{
+    color: #F6AF03;
+font-size: 4rem;
+font-weight: 700;
 
-    
+text-align: center;
+}
+ .contact-us .title{
+    color: #717171;
+margin-top:2rem;
+text-align: center;
+font-size: 1.8rem;
 
+font-weight: 500;
+}
+.contact-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 75px;
+}
+.contact-box-left{
+    width: 40%;
+    background-color: black ;
+    padding: 35px 75px;
+    border-radius: 8px;
+}
+.contact-box-right{
+    width: 60%;
+    background-color: #fff;
+    padding: 35px 75px;
+    border-radius: 8px;
+    color: #000000;
+}
+.contact-box-left .heading{
+    color: #FFF;
+    font-size: 2.8rem;
+text-align: start;
+    font-weight: 600;
+
+}
+.contact-box-left .title{
+    text-align: start;
+    margin-bottom: 11.1rem;
+}
+.contact-info .contact{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5rem;
+}
+.user-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.contact-box .selecte{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.problem{
+    display: flex;
+}
+.message .title{
+    margin-bottom: 10px;
+
+}
+.text-message{
+    width: 100%;
+    height: 100px;
+}
+footer {
+    margin-top: 50px;
+}
+.send{
+    margin-top: 20px;
+    color: #fff;
+    display: inline-flex;
+padding: 15px 48px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 5px;
+background: #011C2A;    
+box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+cursor: pointer;
+}
