@@ -209,6 +209,12 @@ margin: 20px auto;
 .nav{
   display: none;
  }
+ /* Thong TIn */
+
+
+
+
+
 }
 /* Tablet  */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -280,6 +286,21 @@ margin: 20px auto;
   right: 9px;
   overflow: hidden;
 }
+/* Thong TIn */
+.contact-us .heading{
+  margin-top: 110px;
+}
+.contact-box-left{
+padding: 35px 32px;
+}
+.contact-box-right {
+
+  padding: 35px 48px;
+ 
+}.contact-box {
+  padding: 35px 28px;
+}
+
 }
 /* mobile */
 @media (max-width: 767.98px) {
@@ -288,7 +309,36 @@ margin: 20px auto;
     margin-top: 79px;
    
 }
+.contact-us .heading{
+  margin-top: 81px;
+}
+.contact-box-left,.contact-box-right  {
+  width: 100%;
+  padding: 35px 20px;
+  
+}
+.contact-box {
+  flex-direction: column;
+  padding:  0px;
+  width: 90%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.user-info input{
+  margin-top: 10px;
+  width: 95%;
+  height: 25px;
+}
+.contact-box-right .button-send{
+text-align: center;
+}
+
 .tablet-clickmenu{display: none;}
 .box-menu-tablet{display: none;}
+
 }
 

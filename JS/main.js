@@ -98,6 +98,7 @@ if (translateValue_movieSimilar === 0) {
 let arrow_menu = document.querySelector(".click-menu");
 let menu = document.querySelector(".box-hidden");
 arrow_menu.onclick = function () {
+  alert("hah");
   menu.classList.toggle("translate-menu");
 };
 // code JS main.html
