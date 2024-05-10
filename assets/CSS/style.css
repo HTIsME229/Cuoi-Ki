@@ -15,22 +15,18 @@ a{
     text-decoration: bold;
 }
 .container{
-
+background-image: url(../icon/background-login.png);
     display: flex;
-    width: calc(100% - 48px);
+    max-width: calc(100% - 280px);
    align-items: center;
    justify-content: center;
    margin: 0 auto;
    height: 100vh;
-   
-   
-   
-   
   
 }
 .box_login,.box_signUp{
     margin-top: 50px;
-  width: 60%;
+  width: 50%;
     padding: 60px;
     background-color: rgb(10,21,28);
     border-radius: 30px;
@@ -151,6 +147,7 @@ p.sign-up{
      padding:10px 0px;
      border-radius: 20px;
      color: #fff;
+     width: 94%;
      
     
 }
