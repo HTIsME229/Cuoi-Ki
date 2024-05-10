@@ -28,11 +28,29 @@ background-image: url(../icon/background-login.png);
     margin-top: 50px;
   width: 50%;
     padding: 60px;
-    background-color: rgb(10,21,28);
+    background-color: rgba(10, 21, 28, 0.491);
+    opacity: 0.8;
     border-radius: 30px;
     transition: 0.5s;
 
 
+}
+
+.box_login:hover{
+    box-shadow: 10px -3px 84px 3px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 10px -3px 84px 3px rgba(0,0,0,0.66);
+    -moz-box-shadow: 10px -3px 84px 3px rgba(0,0,0,0.66);
+    opacity: 1;
+    background-color: rgb(10,21,28);
+  
+}
+.box_signUp:hover{
+    box-shadow: 10px -3px 84px 3px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 10px -3px 84px 3px rgba(0,0,0,0.66);
+    -moz-box-shadow: 10px -3px 84px 3px rgba(0,0,0,0.66);
+    opacity: 1;
+    background-color: rgb(10,21,28);
+  
 }
 img.icon{
     object-fit: cover;

@@ -1,18 +1,18 @@
 @media (min-width: 992px) {
-    .mobile-header {
+    .nav-mobile{
       display: none;
     }
+   .bar{
+    display: none;
+   }
+   .tablet-clickmenu{display: none;}
+   .box-menu-tablet{display: none;}
   }
   /* Tablet & mobile */
 @media (max-width: 991.98px) {
-
-}
-/* Tablet  */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-/* mobile */
-@media (max-width: 767.98px) {
+  /* code dang nhap */
   .container{
-    max-width: calc(100% - 48px);
+    max-width: calc(100% - 20px);
   }
    h1.name{
     font-size: 2rem;
@@ -21,8 +21,8 @@
    {
     display:none;
    }
-   .box_login{
-    width: 93%;
+   .box_login,.box_signUp{
+    width: 73%;
     padding: 42px;
    }
    .Forget{
@@ -32,8 +32,10 @@
    .sign-up a{
    margin-left: 5px;
    }
+   /* code dang ki  */
+
    .header{
-    max-width: 100%;
+max-width: calc(100% -10px);
    }
    .container-head{
  margin: 0px 0px;
@@ -50,24 +52,242 @@ gap: 20px;
 p.text {
   white-space: nowrap;
 }
+.film .button {
+
+  gap: 10px;
+}
+.film .button .watching {
+
+  padding: 12px 15px;
+
+}
   .content-right{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 
   }
-  .bar{
+  .blur-layer{
+    width: 100%;
+  }
+  .hide{
+  transform: translateX(-100%);
+  }
+   .nav-mobile{
+    position: absolute;
+    display: flex;
+      
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    padding: 20px 30px;
+    width: fit-content;
+    opacity: 0.9;
+    transition: 1s;
+    top: 13px;
+   left: 0;
+    
+   }
+   .bar{
     width: 20px;
     height: 20px;
+    z-index: 1;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 12px;
+    left: 12px;
   }
-   
-   .nav{
-    display: none;
+
+  .logo .logo-text{
+    font-size: 18px;
+  }
+  .nav-mobile .close{
+    width: 20px;
+    height: 20px; 
+    position: absolute;
+    top: 9px;
+    right: 7px;
+
+  }
+    .nav-mobile .link{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      /* font-size: 25px; */
    }
+   .film-info {
+    padding: 35px 23px;
 }
-main,footer{
+.episode-info {
+  padding: 30px 23px;
+}
+.choice-list {
+  white-space: nowrap;
+  padding-bottom:40px
+}
+
+.options .heading .click-ahead {
+
+  right: -22px;
+}
+.options .heading .click-back {
+
+  right: 14px;
+}
+.cast-list .click-back {
+
+  left: -33px;
+}
+.choice-list {
+  gap: 20px;
+
+}
+.cast-list svg.arrow {
+  right: -28px;
+    /* display: inline-block; */
+}
+.episode-list img {
+  width: 250px;
+
+ 
+}
+.list-similar {
+  padding: 30px 23px;
+}
+
+
+img.thumb{
+  width: 250px ;
+}
+.list-similarMovie .click-ahead {
+  top: -3px;
+  right: 3px;
+}
+.list-similarMovie .click-back {
+  right: 33px;
+  top: -3px;
+}
+.similar {
+  margin-bottom: 0px;
+}
+   
+   .footer-info {
+    padding: 30px 23px;
+}
+.footer-top .heading {
+  font-size: 25px;
+  /* display: none; */
+}
+.link {
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+  gap:20px;
+  white-space: nowrap;
+}
+.footer-top {
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-top .content-right{
+  width: 60%;
+  gap:0px;
+}
+.footer-top .social{
+  gap:27px
+}
+.footer-bottom {
+ flex-direction: column;
+}
+.footer-bottom .content-right{
+  gap: 0px;
+}
+.footer-bottom .content-left {
+white-space: nowrap;
+}
+.footer-bottom .author{
+  white-space: nowrap;
+margin: 20px auto;
+}
+.nav{
   display: none;
-  
  }
+}
+/* Tablet  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-mobile{
+    position: absolute;
+    display: flex;
+      
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    padding: 40px 50px;
+    width: fit-content;
+    opacity: 0.9;
+    transition: 1s;
+    top: 13px;
+   left: 0;
+    
+   }
+   .film .button {
+    gap: 50px;
+}
+
+   .content-right{
+    display: flex;
+    justify-content: start;
+   }
+   .footer-top .content-right{
+    align-items: center;
+   }
+  .footer-top .social {
+    gap: 43px;
+}
+.footer-top .social {
+  margin-top: 78px;
+}
+.footer-bottom .content-left {
+  margin: 0 auto;
+  gap: 50px;
+}
+.link { 
+  grid-template-columns: repeat(4, 1fr);
+
+}
+/* dang nhap  */
+.box_login,.box_signUp {
+  width: 62%;
+  padding: 60px;   
+
+}
+.box__info {
+  row-gap: 23px;
+}
+/*  */
+.user{
+  width: 20px;
+  height: 20px ;
+
+}
+.tablet-clickmenu{
+  position: absolute;
+  top: 18px;
+  right: 44px;
+  display: flex;
+  gap: 18px;  
+}
+.box-menu-tablet{
+  position: absolute;
+  top: 54px;
+  right: 9px;
+  overflow: hidden;
+}
+}
+/* mobile */
+@media (max-width: 767.98px) {
+  .footer-top .social {
+ 
+    margin-top: 79px;
+   
+}
+.tablet-clickmenu{display: none;}
+.box-menu-tablet{display: none;}
+}
