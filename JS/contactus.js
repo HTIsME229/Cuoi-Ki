@@ -21,5 +21,6 @@ let tablet_menu = document.querySelector(".tablet-menu");
 arrow_Tabletmenu.onclick = function () {
   tablet_menu.classList.toggle("translate-menu");
 };
-
+const userName = localStorage.getItem("user");
+document.querySelector(".userName").innerHTML = userName;
 // code t

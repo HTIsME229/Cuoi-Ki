@@ -40,3 +40,5 @@ console.log(menu);
 arrow_menu.onclick = function () {
   menu.classList.toggle("translate-menu");
 };
+const userName = localStorage.getItem("user");
+document.querySelector(".userName").innerHTML = userName;

@@ -13,6 +13,20 @@ html{
 
 }
 
+.information{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+
+}
+.userName{ 
+    text-shadow: 0px 2px 7px #f00;
+color: Red;
+background: url(https://i.imgur.com/Ak4d9pH.gif);
+font-weight: bold;
+}
+
 .blur-layer{
     position: absolute;
     width: 1139px;
