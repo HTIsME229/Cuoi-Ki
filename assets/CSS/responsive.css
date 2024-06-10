@@ -1,81 +1,107 @@
 @media (min-width: 992px) {
-    .nav-mobile{
-      display: none;
-    }
-   .bar{
+  .nav-mobile {
     display: none;
-   }
-   .tablet-clickmenu{display: none;}
-   .box-menu-tablet{display: none;}
   }
-  /* Tablet & mobile */
+
+  .bar {
+    display: none;
+  }
+
+  .tablet-clickmenu {
+    display: none;
+  }
+
+  .box-menu-tablet {
+    display: none;
+  }
+}
+
+/* Tablet & mobile */
 @media (max-width: 991.98px) {
+
   /* code dang nhap */
-  .container{
+  .container {
     max-width: calc(100% - 20px);
   }
-   h1.name{
+
+  h1.name {
     font-size: 2rem;
-   }
-  .login__desc
-   {
-    display:none;
-   }
-   .box_login,.box_signUp{
+  }
+
+  .login__desc {
+    display: none;
+  }
+
+  .box_login,
+  .box_signUp {
     width: 73%;
     padding: 42px;
-   }
-   .Forget{
-    margin-top: 8px;
-   }
-   .login {margin-top: 7px;}
-   .sign-up a{
-   margin-left: 5px;
-   }
-   /* code dang ki  */
+  }
 
-   .header{
-max-width: calc(100% -10px);
-   }
-   .container-head{
- margin: 0px 0px;
+  .Forget {
+    margin-top: 8px;
+  }
+
+  .login {
+    margin-top: 7px;
+  }
+
+  .sign-up a {
+    margin-left: 5px;
+  }
+
+  /* code dang ki  */
+
+  .header {
+    max-width: calc(100% -10px);
+  }
+
+  .container-head {
+    margin: 0px 0px;
     background-size: cover;
     background-image: url(../icon/the-anarchists-s01-ka-1920.jpg);
-    max-width:100%;
-   }
-   .film{
+    max-width: 100%;
+  }
+
+  .film {
     padding: 58px 34px;
-flex-direction: column;
-gap: 20px;
-   }
-   
-p.text {
-  white-space: nowrap;
-}
-.film .button {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-  gap: 10px;
-}
-.film .button .watching {
+  p.text {
+    white-space: nowrap;
+  }
 
-  padding: 12px 15px;
+  .film .button {
 
-}
-  .content-right{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+
+  .film .button .watching {
+
+    padding: 12px 15px;
 
   }
-  .blur-layer{
+
+  .content-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .blur-layer {
     width: 100%;
   }
-  .hide{
-  transform: translateX(-100%);
+
+  .hide {
+    transform: translateX(-100%);
   }
-   .nav-mobile{
+
+  .nav-mobile {
     position: absolute;
     display: flex;
-      
+
     flex-direction: column;
     gap: 20px;
     background-color: black;
@@ -84,10 +110,11 @@ p.text {
     opacity: 0.9;
     transition: 1s;
     top: 13px;
-   left: 0;
-    
-   }
-   .bar{
+    left: 0;
+
+  }
+
+  .bar {
     width: 20px;
     height: 20px;
     z-index: 1;
@@ -96,132 +123,193 @@ p.text {
     left: 12px;
   }
 
-  .logo .logo-text{
+  .logo .logo-text {
     font-size: 18px;
   }
-  .nav-mobile .close{
+
+  .nav-mobile .close {
     width: 20px;
-    height: 20px; 
+    height: 20px;
     position: absolute;
     top: 9px;
     right: 7px;
 
   }
-    .nav-mobile .link{
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      /* font-size: 25px; */
-   }
-   .film-info {
+
+  .nav-mobile .link {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* font-size: 25px; */
+  }
+
+  .film-info {
     padding: 35px 23px;
-}
-.episode-info {
-  padding: 30px 23px;
-}
-.choice-list {
-  white-space: nowrap;
-  padding-bottom:40px
-}
+  }
 
-.options .heading .click-ahead {
-
-  right: -22px;
-}
-.options .heading .click-back {
-
-  right: 14px;
-}
-.cast-list .click-back {
-
-  left: -33px;
-}
-.choice-list {
-  gap: 20px;
-
-}
-.cast-list svg.arrow {
-  right: -28px;
-    /* display: inline-block; */
-}
-.episode-list img {
-  width: 250px;
-
- 
-}
-.list-similar {
-  padding: 30px 23px;
-}
-
-
-img.thumb{
-  width: 250px ;
-}
-.list-similarMovie .click-ahead {
-  top: -3px;
-  right: 3px;
-}
-.list-similarMovie .click-back {
-  right: 33px;
-  top: -3px;
-}
-.similar {
-  margin-bottom: 0px;
-}
-   
-   .footer-info {
+  .episode-info {
     padding: 30px 23px;
-}
-.footer-top .heading {
-  font-size: 25px;
-  /* display: none; */
-}
-.link {
- display: grid;
- grid-template-columns: repeat(2,1fr);
-  gap:20px;
-  white-space: nowrap;
-}
-.footer-top {
-  justify-content: space-between;
-  gap: 10px;
-}
-.footer-top .content-right{
-  width: 60%;
-  gap:0px;
-}
-.footer-top .social{
-  gap:27px
-}
-.footer-bottom {
- flex-direction: column;
-}
-.footer-bottom .content-right{
-  gap: 0px;
-}
-.footer-bottom .content-left {
-white-space: nowrap;
-}
-.footer-bottom .author{
-  white-space: nowrap;
-margin: 20px auto;
-}
-.nav{
-  display: none;
- }
- /* Thong TIn */
+  }
+
+  .choice-list {
+    white-space: nowrap;
+    padding-bottom: 40px
+  }
+
+  .options .heading .click-ahead {
+
+    right: -22px;
+  }
+
+  .options .heading .click-back {
+
+    right: 14px;
+  }
+
+  .cast-list .click-back {
+
+    left: -33px;
+  }
+
+  .choice-list {
+    gap: 20px;
+
+  }
+
+  .cast-list svg.arrow {
+    right: -28px;
+    /* display: inline-block; */
+  }
+
+  .episode-list img {
+    width: 250px;
 
 
+  }
 
+  .list-similar {
+    padding: 30px 23px;
+  }
+
+
+  img.thumb {
+    width: 250px;
+  }
+
+  .list-similarMovie .click-ahead {
+    top: -3px;
+    right: 3px;
+  }
+
+  .list-similarMovie .click-back {
+    right: 33px;
+    top: -3px;
+  }
+
+  .similar {
+    margin-bottom: 0px;
+  }
+
+  .footer-info {
+    padding: 30px 23px;
+  }
+
+  .footer-top .heading {
+    font-size: 25px;
+    /* display: none; */
+  }
+
+  .link {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    white-space: nowrap;
+  }
+
+  .footer-top {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .footer-top .content-right {
+    width: 60%;
+    gap: 0px;
+  }
+
+  .footer-top .social {
+    gap: 27px
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .footer-bottom .content-right {
+    gap: 0px;
+  }
+
+  .footer-bottom .content-left {
+    white-space: nowrap;
+  }
+
+  .footer-bottom .author {
+    white-space: nowrap;
+    margin: 20px auto;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  /* Thong TIn */
+  .menu-film .film {
+    width: 100%;
+  }
+
+  .menu-film .slide {
+    width: 100%;
+  }
+
+  .menu-film .click-ahead {
+    right: 5px;
+    z-index: 2;
+  }
+
+  .menu-film .click-back {
+    left: 3px;
+    z-index: 2;
+    top: 227px;
+  }
+
+  .box_movie {}
+
+  .box_movie {
+    overflow: auto;
+    scrollbar-width: none;
+  }
+
+  .footer-top::after {
+    display: none;
+  }
+
+  .footer-top .content-right::before {
+    top: 143px;
+    left: -190px;
+  }
+
+  .nav-mobile {
+    z-index: 2;
+  }
 
 
 }
+
 /* Tablet  */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .nav-mobile{
+  .nav-mobile {
     position: absolute;
     display: flex;
-      
+
     flex-direction: column;
     gap: 20px;
     background-color: black;
@@ -230,115 +318,151 @@ margin: 20px auto;
     opacity: 0.9;
     transition: 1s;
     top: 13px;
-   left: 0;
-    
-   }
-   .film .button {
-    gap: 50px;
-}
+    left: 0;
 
-   .content-right{
+  }
+
+  .film .button {
+    gap: 50px;
+  }
+
+  .content-right {
     display: flex;
     justify-content: start;
-   }
-   .footer-top .content-right{
+  }
+
+  .footer-top .content-right {
     align-items: center;
-   }
+  }
+
   .footer-top .social {
     gap: 43px;
-}
-.footer-top .social {
-  margin-top: 78px;
-}
-.footer-bottom .content-left {
-  margin: 0 auto;
-  gap: 50px;
-}
-.link { 
-  grid-template-columns: repeat(4, 1fr);
+  }
 
-}
-/* dang nhap  */
-.box_login,.box_signUp {
-  width: 62%;
-  padding: 60px;   
+  .footer-top .social {
+    margin-top: 78px;
+  }
 
-}
-.box__info {
-  row-gap: 23px;
-}
-/*  */
-.user{
-  width: 20px;
-  height: 20px ;
+  .footer-bottom .content-left {
+    margin: 0 auto;
+    gap: 50px;
+  }
 
-}
-.tablet-clickmenu{
-  position: absolute;
-  top: 18px;
-  right: 44px;
-  display: flex;
-  gap: 18px;  
-}
-.box-menu-tablet{
-  position: absolute;
-  top: 54px;
-  right: 9px;
-  overflow: hidden;
-}
-/* Thong TIn */
-.contact-us .heading{
-  margin-top: 110px;
-}
-.contact-box-left{
-padding: 35px 32px;
-}
-.contact-box-right {
+  .link {
+    grid-template-columns: repeat(4, 1fr);
 
-  padding: 35px 48px;
- 
-}.contact-box {
-  padding: 35px 28px;
+  }
+
+  /* dang nhap  */
+  .box_login,
+  .box_signUp {
+    width: 62%;
+    padding: 60px;
+
+  }
+
+  .box__info {
+    row-gap: 23px;
+  }
+
+  /*  */
+  .user {
+    width: 20px;
+    height: 20px;
+
+  }
+
+  .tablet-clickmenu {
+    position: absolute;
+    top: 18px;
+    right: 44px;
+    display: flex;
+    gap: 18px;
+  }
+
+  .box-menu-tablet {
+    position: absolute;
+    top: 54px;
+    right: 9px;
+    overflow: hidden;
+  }
+
+  /* Thong TIn */
+  .contact-us .heading {
+    margin-top: 110px;
+  }
+
+  .contact-box-left {
+    padding: 35px 32px;
+  }
+
+  .contact-box-right {
+
+    padding: 35px 48px;
+
+  }
+
+  .contact-box {
+    padding: 35px 28px;
+  }
+
+  .box-menu-tablet {
+    z-index: 2;
+  }
 }
 
-}
 /* mobile */
 @media (max-width: 767.98px) {
   .footer-top .social {
- 
+
     margin-top: 79px;
-   
-}
-.contact-us .heading{
-  margin-top: 81px;
-}
-.contact-box-left,.contact-box-right  {
-  width: 100%;
-  padding: 35px 20px;
-  
-}
-.contact-box {
-  flex-direction: column;
-  padding:  0px;
-  width: 90%;
-}
 
-.user-info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.user-info input{
-  margin-top: 10px;
-  width: 95%;
-  height: 25px;
-}
-.contact-box-right .button-send{
-text-align: center;
-}
+  }
 
-.tablet-clickmenu{display: none;}
-.box-menu-tablet{display: none;}
+  .contact-us .heading {
+    margin-top: 81px;
+  }
+
+  .contact-box-left,
+  .contact-box-right {
+    width: 100%;
+    padding: 35px 20px;
+
+  }
+
+  .contact-box {
+    flex-direction: column;
+    padding: 0px;
+    width: 90%;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .user-info input {
+    margin-top: 10px;
+    width: 95%;
+    height: 25px;
+  }
+
+  .contact-box-right .button-send {
+    text-align: center;
+  }
+
+  .tablet-clickmenu {
+    display: none;
+  }
+
+  .box-menu-tablet {
+    display: none;
+  }
+
+  .footer-top .content-right::before {
+    top: 177px;
+    left: -70px;
+  }
 
 }
-

@@ -23,4 +23,6 @@ arrow_Tabletmenu.onclick = function () {
 };
 const userName = localStorage.getItem("user");
 document.querySelector(".userName").innerHTML = userName;
+document.querySelector(" .tablet-menu .userName").innerHTML = userName;
+
 // code t

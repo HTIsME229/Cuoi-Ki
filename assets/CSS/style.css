@@ -28,7 +28,7 @@ background-image: url(../icon/background-login.png);
     margin-top: 50px;
   width: 50%;
     padding: 60px;
-    background-color: rgba(10, 21, 28, 0.491);
+    background-color: #0a151c7d;
     opacity: 0.8;
     border-radius: 30px;
     transition: 0.5s;

@@ -59,3 +59,14 @@ document.querySelector(".login").onclick = () => {
   localStorage.setItem("user", username);
   console.log(username);
 };
+
+// call api test
+// const userAction = async () => {
+
+//   const response = await fetch(
+//     "http://localhost:8081/v1/api/customers?page=1&limit=15"
+//   );
+//   const myJson = await response.json(); //extract JSON from the http response
+//   console.log(myJson);
+// };
+// userAction();
